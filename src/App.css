@@ -1,0 +1,36 @@
+.navbar{
+  border: 1px solid black;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background: black;
+}
+.logo{
+
+  color: #fff;
+  font-size: 14px;
+}
+.menuList ul{
+  display: flex;  
+  justify-content: space-between;
+  color: lightgray;
+
+  /* text-decoration: none; */
+  list-style: none;
+  
+}
+.menuList ul li{
+  /* text-decoration: none; */
+  padding: 12px;
+  font-size: 12px;
+}
+.btn{
+  border-radius: 25px;
+  color: #fff;
+  background-color: teal;
+  height: 30px;
+  width: 150%;
+}
